@@ -167,3 +167,14 @@ p {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     transform: scale(1.2);
 }
+
+
+@media(max-width: 1000px){
+    #column1{
+        right: 100px;
+    }
+    
+    #column2{
+        left: 330px;
+    }
+}

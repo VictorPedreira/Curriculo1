@@ -169,7 +169,7 @@ p {
 }
 
 
-@media(max-width: 1000px){
+@media(max-width: 800px){
     #column1{
         right: 100px;
     }

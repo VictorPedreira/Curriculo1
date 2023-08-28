@@ -42,7 +42,10 @@ header img {
 }
 
 h1 {
-    color: rgb(59, 2, 59) ;
+    background-image: linear-gradient(to left top, rgb(34, 37, 197), rgb(73, 9, 175), rgb(189, 29, 154));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-style: italic;
 }
 
@@ -93,7 +96,9 @@ nav a:hover {
 }
 
 h3 {
-    margin: 10px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 img {

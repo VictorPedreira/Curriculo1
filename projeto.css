@@ -8,9 +8,31 @@ body {
     background-position: center center;
     background-attachment: fixed;
     text-align: center;
-
 }
 
+#home {
+    align-items: center;
+    color: rgb(13, 13, 199);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 46px;
+    text-align: center;
+    height: auto;
+}
+#home {
+    text-decoration: none;
+}
+
+#home:hover {
+    align-items: center;
+    transform: scale(1.2);
+    background-image: linear-gradient(to  bottom right, rgb(20, 5, 20), rgb(61, 5, 61), rgb(85, 4, 85), rgb(84, 3, 100), rgb(110, 3, 131), rgb(144, 14, 170), rgb(183, 16, 216), rgb(255, 255, 255),);
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+    color: white;
+}
 
 ul {
     text-align: center  ;
@@ -27,9 +49,9 @@ main {
     
 }
 
-a {
+.projectdirect {
     text-decoration: none;
-    padding: 16px;
+    padding: 0;
     color: rgb(38, 41, 226);
 }
 
@@ -50,10 +72,6 @@ a {
 
 }
 
-
-
-
-
 h4 {
     text-align: center;
     color: rgb(38, 41, 226);
@@ -66,7 +84,7 @@ p {
 
 }
 
-a:hover {
+.projectdirect:hover {
     color: rgb(161, 52, 224) ;
 }
 
@@ -78,9 +96,16 @@ h1 {
     align-items: center;
     padding: 2px;
     width: 350px;
-    margin: auto;
+    margin: 0;
+    justify-content: center;
     box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
     background-image: linear-gradient(to left, rgb(79, 79, 236), white);
 }
 
-
+ul {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+}

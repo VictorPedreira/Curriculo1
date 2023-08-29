@@ -177,6 +177,7 @@ p {
     
     #column2{
         left: 160px;
+        margin-bottom: 30px;
     }
 
     .contatos {
@@ -196,6 +197,8 @@ p {
     }
 
     h1 {
+        align-items: center;
+        text-align: center;
         margin-top: 50px;
         display: flex;
         justify-content: center;

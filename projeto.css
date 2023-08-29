@@ -135,7 +135,7 @@ ul {
         margin-top: 0;
         background-color: rgb(255, 255, 255);
         list-style-type: none;
-        padding: 200px;
+        padding: 180px;
         margin-top: 0;
         margin: 10px;
         margin-bottom: 10px;
@@ -157,6 +157,7 @@ ul {
         justify-content: center;
         size: 10px;
         font-size: medium;
+        bottom: 0.01%;
     }
 
     .projectdirect {
@@ -166,7 +167,7 @@ ul {
     }
 
     h4 {
-        bottom: 80%;
+        bottom: 73%;
         display: flex;
         position: absolute;
         justify-content: space-between;

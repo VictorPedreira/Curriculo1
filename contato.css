@@ -171,12 +171,12 @@ p {
 
 @media(max-width: 800px){
     #column1{
-        right: px;
+        right: 100px;
       
     }
     
     #column2{
-        left: 160px;
+        left: 180px;
         margin-bottom: 30px;
     }
 
@@ -194,14 +194,27 @@ p {
         left: 20px;
         top: 150px;
         border-radius: 8px 8px 8px;
+        margin-bottom: 100px;
     }
 
     h1 {
+        padding: 0;
+        left: 10px;
         align-items: center;
         text-align: center;
         margin-top: 50px;
         display: flex;
         justify-content: center;
+        margin-left: 1px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 3100px;
+        width: 100%;
+        position: fixed;
+        background-color: rgb(236, 114, 252);
     }
 
 }

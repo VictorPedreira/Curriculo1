@@ -1,31 +1,50 @@
 body {
     width: 100%;
-    height: 4rem;
     min-height: 100vh;
-    position: fixed;
-    background-color: rgb(243, 151, 255);
+    background-color: #261b7c;
     margin: 0;
     padding: 0;
     display: block;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+}
+
 #title {
     top: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 #title h1{
     display: flex;
-    width: 100%;
+    width: auto;
     height: 40px;
     margin: 0;
     align-items: center;
-    
+    align-self: center;
+    justify-self: center;
 }
 
 h1 {
     justify-content: center;
-    text-align: end;
+    text-align: center;
     display: flex;
+    width: 200px;
+    color: white;
 }
 
 #title a {
@@ -34,17 +53,18 @@ h1 {
     display: flex;
     margin: 5px;
     text-decoration: none;
-    
+
 }
 
 #home{
     width: 50px ;   
     margin: 0;
-    color: black;
+    color: white;
+    margin-top: 300px;
 }
 
 #home:hover{ 
-    background-color: rgb(194, 81, 209);
+    background-color: #4c369f;
     color: white;
     box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
     border-radius: 2px 2px 2px;
@@ -64,13 +84,29 @@ i {
 }
 
 .container {
-    padding: 10px;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
 }
 
+#container2 {
+    gap: 40px;
+}
+
+
+.column {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.column div{
+    width: 120px;
+}
 
 .container a:hover {
     color: white;
@@ -82,7 +118,7 @@ i {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -94,7 +130,7 @@ i {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -106,7 +142,7 @@ i {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -118,7 +154,7 @@ i {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -130,7 +166,7 @@ i {
     text-align: center;
     padding-left: 35px;
     padding-right: 35px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -142,7 +178,7 @@ i {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -154,7 +190,7 @@ i {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -166,7 +202,7 @@ i {
     text-align: center;
     padding-left: 35px;
     padding-right: 35px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -176,7 +212,7 @@ i {
     padding: 20px;
     align-items: center;
     text-align: center;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -188,7 +224,7 @@ i {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -200,7 +236,7 @@ i {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -212,7 +248,7 @@ i {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(234, 114, 250);
+    background-color: #4c369f;
     border-radius: 4px 4px 4px;
     margin: 5px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -315,10 +351,27 @@ i {
 }
 
 @media(max-width: 1000px) {
+    
     body {
         display: block;
         position: relative;
     }
+
+    .column {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .container {
+        flex-direction: row;
+        gap: 0 !important;
+    }
+
+    #container2 {
+        gap: 0;
+    }
+
 }
 
 /* @media(max-width: 800px){

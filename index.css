@@ -163,4 +163,10 @@ img {
     header img {
         transition: all 1s;
     }
+
+    body {
+        align-items: center;
+        display: flex;
+        justify-self: center;
+    }
 }

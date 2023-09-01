@@ -104,11 +104,14 @@ ul {
 
 @media(max-width: 800px) {
    
+    .cards {
+        display: flex;
+    }
 
     .cards {
         position: absolute;
         width: 1%;
-        height: 0.1rem;
+        height: auto;
         border-radius: 15px;
         margin-top: 0;
         list-style-type: none;

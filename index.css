@@ -116,7 +116,10 @@ nav a:hover {
     background-color: #692d85;
     border-radius: 10px;
     box-shadow: 4px 4px 1px rgba(white, white, white, 1);
- 
+}
+
+.sobre h3 {
+    padding-left: 25px;
 }
 
 h3 {
@@ -165,8 +168,9 @@ img {
     }
 
     body {
-        align-items: center;
         display: flex;
-        justify-self: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }

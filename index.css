@@ -53,6 +53,7 @@ header img {
     border: 5px solid #692d85;
     position: absolute;
     left: calc(50% - 75px);
+    cursor: pointer;
 }
 
 .centro {
